@@ -6,7 +6,7 @@
 .title {
     font-weight: bold;
     font-style: italic;
-    background: lightsalmon;
+    background: rgb(223, 172, 152, 1.0);
 }
 
 ul, ol {
