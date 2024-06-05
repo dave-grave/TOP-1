@@ -1,0 +1,22 @@
+* {
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-style: italic;
+    background: lightsalmon;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+#finished {
+    background: lightgreen;
+}
+
+.unfinished {
+    background: coral;
+}
