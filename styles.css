@@ -1,22 +1,49 @@
 * {
     font-family: "Helvetica", "Times New Roman", sans-serif;
     text-align: center;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+}
+
+.page {
+    background: rgb(201, 195, 129);
+}
+
+.container {
+    margin: 0 300px;
+    border: 8px solid white;
+    background: rgb(193, 193, 193);
 }
 
 .title {
     font-weight: bold;
     font-style: italic;
-    background: rgb(223, 172, 152, 1.0);
+    background: rgb(255, 193, 169);
 }
+
+/* h1 {
+    border-top: 8px solid white;
+    border-bottom: 8px solid white; 
+}  */
 
 ul, ol {
     list-style-position: inside;
+    margin: 0;
+    padding: 0;
 }
 
-#finished {
-    background: lightgreen;
+li {
+    margin: 0 auto 0 auto;
+}
+
+.links {
+    border-top: 8px solid white;
+}
+
+.finished {
+    background-color: lightgreen;
 }
 
 .unfinished {
-    background: coral;
+    background-color: coral;
 }
