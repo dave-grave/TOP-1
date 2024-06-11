@@ -32,9 +32,9 @@ ul, ol {
     padding: 0;
 }
 
-li {
+/* li {
     margin: 0 auto 0 auto;
-}
+} */
 
 .links {
     border-top: 8px solid white;
@@ -46,4 +46,10 @@ li {
 
 .unfinished {
     background-color: coral;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    border: 8px solid rgb(255, 51, 51, 0.8);
 }
